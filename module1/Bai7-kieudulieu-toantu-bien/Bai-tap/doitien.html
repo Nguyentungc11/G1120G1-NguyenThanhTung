@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Chuyển đổi tiền tệ</h1>
+<table>
+    <tr>
+        <td>Amount</td>
+        <td><input id="amount"></td>
+        <td><select id="loai1">
+            <option>VND</option>
+            <option>USD</option>
+        </select></td>
+        <td>
+            <select id="loai2">
+                <option>USD</option>
+                <option>VND</option>
+            </select>
+        </td>
+        <td>
+            <input type="button" onclick="tien()" value="Conver"/>
+        </td>
+    </tr>
+</table>
+          <p id="kq"></p>
+<script>
+    function tien() {
+        let a = document.getElementById("amount").value;
+        let b = document.getElementById("loai1").value;
+        let c = document.getElementById("loai2").value;
+        let result;
+        if (b === "USD" && c === "VND") {
+            result = a * 23000;
+
+        } else if (b === "VND" && c === "USD") {
+            result = a / 23000;
+
+
+        }
+        document.getElementById("kq").innerText = result
+    }
+</script>
+</body>
+</html>
