@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b7f4b6e9-0904-4a32-9f22-7ed3a05ed430" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/Bai-7-kieudulieu-toantu-bien/Thuc-hanh/khai-bao-va-su-dung-bien.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/Bài 6. javascrip/Thực hành/bai1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/Bài 6. javascrip/Thực hành/bai2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/Bài 6. javascrip/Thực hành/bai3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/Bài 6. javascrip/Thực hành/bai3.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +30,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module1/bai8.cautrucdieukien1/Thuchanh" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\G1120G1-NguyenThanhTung\module1\bai8.cautrucdieukien1\Thuchanh" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -52,7 +53,8 @@
       <workItem from="1606459896920" duration="2092000" />
       <workItem from="1606781493139" duration="633000" />
       <workItem from="1607418458637" duration="200000" />
-      <workItem from="1607418683426" duration="2395000" />
+      <workItem from="1607418683426" duration="3859000" />
+      <workItem from="1607429851002" duration="74000" />
     </task>
     <servers />
   </component>
@@ -60,6 +62,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1607429913291">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607429913291" />
     <state x="564" y="84" key="RollbackChangesDialog" timestamp="1606781527006">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
