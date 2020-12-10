@@ -7,15 +7,17 @@
 <body>
 <script>
     let doanhso = parseInt(prompt("Nhập doanh số:"));
-    if(doanhso > 1000000){
-        let hoahong = doanhso*1%;
+    let hoahong = "0"
+    if(doanhso <= 100000000){
+        hoahong = doanhso/100;
     }else{
-        if(doanhso < 100000000){
-           hoahong = doanhso*5%;
+        if(doanhso <= 1000000000 ){
+           hoahong = doanhso*5/100;
         }else{
-            hoahong = doanhso*10%
+            hoahong = doanhso*10/100;
         }
     }
+    document.write("Số tiền hoa hồng được hưởng là:" + hoahong);
 </script>
 </body>
 </html>

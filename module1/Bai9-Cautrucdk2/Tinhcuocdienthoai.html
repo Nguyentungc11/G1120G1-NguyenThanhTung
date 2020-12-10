@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính cước điện thoại</title>
+</head>
+<body>
+<script>
+    let minu = parseFloat(prompt("Số phút đã sử dụng:"));
+    let pay;
+    if (minu <= 10){
+        pay = minu*1.5;
+    }else {
+        pay = minu*1.2;
+    }
+    document.write("Số tiền bạn phải trả là:" +pay);
+</script>
+</body>
+</html>
