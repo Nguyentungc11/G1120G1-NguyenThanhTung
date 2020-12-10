@@ -30,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module1/bai8.cautrucdieukien1/Thuchanh" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module1/Bai7-kieudulieu-toantu-bien/Bai-tap/Bai2.html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -55,6 +55,8 @@
       <workItem from="1607418458637" duration="200000" />
       <workItem from="1607418683426" duration="3859000" />
       <workItem from="1607429851002" duration="74000" />
+      <workItem from="1607478963471" duration="17361000" />
+      <workItem from="1607524961613" duration="6241000" />
     </task>
     <servers />
   </component>
@@ -62,13 +64,17 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1607429913291">
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1607565139002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607429913291" />
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607565139002" />
     <state x="564" y="84" key="RollbackChangesDialog" timestamp="1606781527006">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="564" y="84" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606781527006" />
+    <state x="388" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607506557751">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="388" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1607506557751" />
   </component>
 </project>
