@@ -30,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module1/Bai9-Cautrucdk2/Luyentap_Bai1.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../New folder/doitien.html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -58,6 +58,9 @@
       <workItem from="1607478963471" duration="17361000" />
       <workItem from="1607524961613" duration="20286000" />
       <workItem from="1607625631012" duration="2624000" />
+      <workItem from="1607649919273" duration="16916000" />
+      <workItem from="1607840288774" duration="335000" />
+      <workItem from="1607840653028" duration="40451000" />
     </task>
     <servers />
   </component>
@@ -65,10 +68,14 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1607569183292">
+    <state x="412" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607840461417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607569183292" />
+    <state x="412" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1607840461417" />
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1607885056763">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607885056763" />
     <state x="564" y="84" key="RollbackChangesDialog" timestamp="1606781527006">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -77,5 +84,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="388" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1607506557751" />
+    <state x="557" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607678467630">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="557" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607678467630" />
   </component>
 </project>

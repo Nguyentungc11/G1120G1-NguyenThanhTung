@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính tổng 20 số đầu tiên trong dãy fibonaci</title>
+</head>
+<body>
+<script>
+    let n = parseInt(prompt("Nhập vào số lượng chữ số cần in ra trong dãy fibonaci"));
+    let f1 = 1;
+    let f2 = 1;
+    let f;
+    let count = 3;
+    let tong = f1 + f2;
+    if (n === 1) {
+        document.write(f1 +'<br>');
+        document.write("Tổng = " +" " +f1);
+    } else {
+        if (n === 2) {
+            document.write(f1 +" " + f2 +'<br>');
+            document.write("Tổng =" +' ' + (f1+f2));
+        } else {
+            if (n > 2) {
+                document.write(f1 + " ");
+                document.write(f2 + " ");
+                while (count <= n) {
+                    f = f1 + f2;
+                    tong += f;
+                    document.write(f + " ");
+                    f1 = f2;
+                    f2 = f;
+                    count++;
+                }
+                document.write('<br>');
+                document.write("Tổng =" + " " + tong);
+            }
+        }
+    }
+</script>
+</body>
+</html>

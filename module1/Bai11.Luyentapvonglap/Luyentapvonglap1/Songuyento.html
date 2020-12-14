@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In dãy số nguyên tố.</title>
+</head>
+<body>
+<script>
+ let input = parseInt(prompt("Nhập vào số lượng số nguyên tố cần in ra:"));
+ let count = 0;
+ let countPri = 1;
+ let number = 2;
+ while(countPri <= input) {
+     count=0;
+     for(let i=1;i<= number;i++) {
+     if(number % i ===0){
+         count++;
+     }
+     }
+     if(count === 2){
+         document.write(number +" ");
+         countPri++;
+     }
+     number++;
+ }
+
+</script>
+</body>
+</html>

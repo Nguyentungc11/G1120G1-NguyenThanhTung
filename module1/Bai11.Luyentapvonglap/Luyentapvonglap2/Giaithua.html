@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính giai thừa</title>
+</head>
+<body>
+<script>
+    let num = parseInt(prompt("Nhập vào số cần tính giai thừa:"));
+    let fac1 = 1;
+    let fac;
+    if(num === 0 || num === 1){
+        document.write(num + '!' + '=' + 1);
+    }else {
+      for(let i=2;i<=num;i++){
+       fac = fac1*i;
+       fac1 = fac;
+      }
+      document.write(num +"!"+" "+"="+" " +fac);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In ra dãy fibonaci</title>
+</head>
+<body>
+<script>
+    let n = parseInt(prompt("Nhập vào số lượng chữ số cần in ra trong dãy fibonaci"));
+    let f1 = 1;
+    let f2 = 1;
+    let f;
+    let count = 3;
+    let tong;
+    if (n === 1) {
+        document.write(f1);
+    } else {
+        if (n === 2) {
+            document.write(f1 +" " + f2);
+        } else {
+            if (n > 2) {
+                document.write(f1 + " ");
+                document.write(f2 + " ");
+                while (count <= n) {
+                    f = f1 + f2;
+                    document.write(f + " ");
+                    f1 = f2;
+                    f2 = f;
+                    count++;
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>

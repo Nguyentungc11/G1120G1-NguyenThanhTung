@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tổng các số chia hết cho 7</title>
+</head>
+<body>
+<script>
+    let num = parseInt(prompt("Nhập số chữ số chia hết cho 7 cần tính tổng:"));
+    count = 0;
+    let tong = 0;
+    let i = 0;
+        while(count <num) {
+            if (i % 7 == 0) {
+                tong += i;
+                count++;
+            }
+                i++;
+        }
+        document.write("Tổng là " + tong);
+
+</script>
+</body>
+</html>
