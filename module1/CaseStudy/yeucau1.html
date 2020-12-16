@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let  name;
+    let cmnd;
+    let birthday;
+    let email;
+    let address;
+    let typeService;
+    let typeRoom;
+    let typeCustomer;
+    let discount;
+    let quantityIncluded;
+    let rentDays;
+    let totlaPay;
+    name = prompt("Input name: ");
+    cmnd = prompt("Input cmnd: ");
+    birthday = prompt("Input ngày sinh:");
+    email = prompt("Input email: ");
+    address = prompt("Input address: ");
+    typeService = prompt("Input typeService: ");
+    typeRoom = prompt("Input typeRoom: ");
+    typeCustomer = prompt("Input typeCustomer: ");
+    discount = prompt("Input discount: ");
+    quantityIncluded = prompt("Input quantityIncluded: ");
+    rentDays = prompt("Input rentDays: ");
+    totalPay = 300*rentDays*(1 - discount/100);
+    alert("1.Name: "+name + "\n" +
+        "2.Số cmnd: "+cmnd + "\n" +
+        "3.Birthday: "+ birthday+"\n"+
+        "4.Email: "+ email+"\n"+
+        "5.Address: "+address+"\n"+
+        "6.typeService"+typeService+"\n"+
+        "7.typeRoom: " + typeRoom + "\n"+
+        "8.TypeCustomer: " + typeCustomer + "\n" +
+        "9.Discount: " + discount + "\n" +
+        "10.QuantityIncluded: " + quantityIncluded + "\n" +
+        "11.Rentdays: " + rentDays + "\n" +
+        "12.TotalPay: " + totalPay);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let name = 'Nguyễn Văn A';
+    let cardId = '123456789';
+    let birthday = '20/10/1990';
+    let email = 'Nguyenvana@mail.com';
+    let address = 'Huế';
+    let typeCustomer = 'Diamond';
+    let discount = 50;
+    let amountPeople = 3;
+    let rentDay = 7;
+    let typeService = 'Room';
+    let typeRoom = 'Vip';
+    let moneyPay;
+    let oldinfo;
+
+    function showCusstomer() {
+        alert("1.Customer Name : " + name + "\n" +
+            "2.Customer CardId: " + cardId + "\n" +
+            "3.Customer Day of birth day : " + birthday + "\n" +
+            "4.Customer email : " + email + "\n" +
+            "5.Customer address : " + address + "\n" +
+            "6.Customer type : " + typeCustomer + "\n" +
+            "7.Discount (%) : " + discount + "\n" +
+            "8.Amount People : " + amountPeople + "\n" +
+            "9.Rent Day : " + rentDay + "\n" +
+            "10.Service type : " + typeService + "\n" +
+            "11.Room type : " + typeRoom)
+    }
+
+    // -------------------------------------------------------------------------
+    function editCustomer() {
+        oldinfo = parseInt(prompt("CUSTOMER INFOMATTION" + "\n" +
+            "1.Customer Name : " + name + "\n" +
+            "2.Customer CardId: " + cardId + "\n" +
+            "3.Customer Day of birth day : " + birthday + "\n" +
+            "4.Customer email : " + email + "\n" +
+            "5.Customer address : " + address + "\n" +
+            "6.Customer type : " + typeCustomer + "\n" +
+            "7.Discount (%) : " + discount + "\n" +
+            "8.Amount People : " + amountPeople + "\n" +
+            "9.Rent Day : " + rentDay + "\n" +
+            "10.Service type : " + typeService + "\n" +
+            "11.Room type : " + typeRoom));
+    }
+
+    // -------------------------------------------------------------------------
+    function totalMoney() {
+        if (typeService === "Villa") {
+            moneyPay = 500 * rentDay * (1 - discount / 100);
+        } else if (typeService === "House") {
+            moneyPay = 300 * rentDay * (1 - discount / 100);
+        } else if (typeService === "Room") {
+            moneyPay = 100 * rentDay * (1 - discount / 100);
+        } else {
+            alert("Failed");
+        }
+        switch (typeCustomer) {
+            case "Diamond":
+                moneyPay -= 15;
+                break;
+            case "Platinum":
+                moneyPay -= 10;
+                break;
+            case "Gold":
+                moneyPay -= 5;
+                break;
+            case "Silver":
+                moneyPay -= 2;
+                break;
+            default:
+                moneyPay -= 0
+        }
+        switch (address) {
+            case "Đà Nẵng":
+                moneyPay -= 20;
+                break;
+            case "Huế":
+                moneyPay -= 10;
+                break;
+            case "Quảng Nam":
+                moneyPay -= 5;
+                break;
+            default:
+                moneyPay -= 0;
+        }
+        if (rentDay > 7) {
+            moneyPay -= 30;
+        } else if (rentDay >= 5) {
+            moneyPay -= 20;
+        } else if (rentDay >= 2) {
+            moneyPay -= 10;
+        } else moneyPay -= 0;
+        alert("Số tiền phải trả là :" + moneyPay);
+    }
+
+    // ------------------------------------------------------------------------------------------
+    let choose = parseInt(prompt("1. Show Information Customer" + "\n" +
+        "2.Edit Information Customer" + "\n" +
+        "3.Show the amount to be paid after discount" + "\n"
+    ));
+    switch (choose) {
+        case 1:
+            showCusstomer();
+            break;
+        case 2:
+            editCustomer();
+            switch (oldinfo) {
+                case 1:
+                    name = prompt("Customer Name(new) : ");
+                    showCusstomer();
+                    break;
+                case 2:
+                    cardId = prompt("Customer CardId(new): ");
+                    showCusstomer();
+                    break;
+                case 3:
+                    birthday = prompt("Customer Day of birth day(new) : ");
+                    showCusstomer();
+                    break;
+                case 4:
+                    email = prompt("Customer email(new) : ");
+                    showCusstomer();
+                    break;
+                case 5:
+                    address = prompt("Customer address(new) : ");
+                    showCusstomer();
+                    break;
+                case 6:
+                    typeCustomer = prompt("Customer type (Diamond/Platinum/Gold/Silver/Member): ");
+                    showCusstomer();
+                    break;
+                case 7:
+                    discount = prompt("Discount (%) : ");
+                    showCusstomer();
+                    break;
+                case 8:
+                    amountPeople = prompt("Amount People : ");
+                    showCusstomer();
+                    break;
+                case 9:
+                    rentDay = prompt("Rent Day : ");
+                    showCusstomer();
+                    break;
+                case 10:
+                    typeService = prompt("Service type (Villa/House/Room) : ");
+                    showCusstomer();
+                    break;
+                case 11:
+                    typeRoom = prompt("Room type (Vip/Business/Normal) : ");
+                    showCusstomer();
+                    break;
+                default:
+                    alert("Failed")
+            }
+            break;
+        case 3:
+            totalMoney();
+            break;
+        default:
+            alert("Failed")
+    }
+</script>
+</body>
+</html>
