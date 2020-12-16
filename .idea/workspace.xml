@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b7f4b6e9-0904-4a32-9f22-7ed3a05ed430" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/Bai11.Luyentapvonglap/Luyentapvonglap2/in-hinh-chu-nhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Bai11.Luyentapvonglap/Luyentapvonglap2/in-hinh-chu-nhat.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../New folder/doitien.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../New folder/insert.html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -62,22 +79,43 @@
       <workItem from="1607649919273" duration="16916000" />
       <workItem from="1607840288774" duration="335000" />
       <workItem from="1607840653028" duration="40451000" />
-      <workItem from="1607909954130" duration="2118000" />
+      <workItem from="1607909954130" duration="3120000" />
+      <workItem from="1607913778469" duration="12687000" />
+      <workItem from="1607998702180" duration="2752000" />
+      <workItem from="1608001513814" duration="601000" />
+      <workItem from="1608002212389" duration="53000" />
+      <workItem from="1608014060640" duration="13066000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608001804564">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1608001804564" />
     <state x="412" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607840461417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1607840461417" />
-    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1607885056763">
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1608026473216">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607885056763" />
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608026473216" />
     <state x="564" y="84" key="RollbackChangesDialog" timestamp="1606781527006">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -86,9 +124,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="388" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1607506557751" />
-    <state x="557" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607678467630">
+    <state x="676" y="0" width="697" height="735" key="dock-window-1" timestamp="1608001860231">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="557" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607678467630" />
+    <state x="676" y="0" width="697" height="735" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1608001860231" />
+    <state x="189" y="80" width="697" height="735" key="dock-window-2" timestamp="1608001860231">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="189" y="80" width="697" height="735" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1608001860231" />
+    <state x="557" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1608024420698">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="557" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1608024420698" />
   </component>
 </project>

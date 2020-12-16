@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let integer = [2, 6, 8, 14, 35, 15];
+    let max = integer[0];
+    let tong = integer[0];
+    let tbc;
+    for(i=1;i<integer.length;i++){
+        if(integer[i]> max){
+            max = integer[i];
+        }
+        tong+= integer[i];
+    }
+    tbc = tong/integer.length;
+    document.write("Phần tử lớn nhất trong mảng là " +max + '<br>'+ "Trung bình cộng của các phần tử là:" + tbc);
+
+</script>
+</body>
+</html>

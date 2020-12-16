@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [1,36,8,5,51,6,3,5,47,12];
+    let v = 36;
+    let count = 0;
+    for(let i=0;i<mang.length;i++){
+        if(mang[i]===v){
+          count++;
+        }
+    }
+    if(count >0){
+        document.write("Trong mảng có phần tử " + v);
+    }else{
+        document.write("Trong mảng không có phần tử " + v);
+    }
+</script>
+</body>
+</html>
