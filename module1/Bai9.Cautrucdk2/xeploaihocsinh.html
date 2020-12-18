@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xếp loại học sinh</title>
+</head>
+<body>
+<script>
+    let dkt = parseFloat(prompt("nhập điểm kiểm tra:"));
+    let dgk = parseFloat(prompt("Nhập điểm giữa kì:"));
+    let dck = parseFloat(prompt("Nhập điểm cuối kì:"));
+    let dtb = (dkt + dgk*2 + dck*3)/6;
+    if (dtb >= 8){
+        document.write("Điểm trung bình là:" + dtb);
+        document.write("Xếp loại giỏi");
+    }else {
+        if(dtb >= 6.5){
+            document.write("Điểm trung bình là:" + dtb);
+            document.write("Xếp loại khá");
+        }else{
+            if(dtb >= 5){
+                document.write("Điểm trung bình là:" + dtb);
+                document.write("Xếp loại trung binh");
+            }else{
+                if(dtb >= 3.5){
+                    document.write("Điểm trung bình là:" + dtb);
+                    document.write("Xếp loại yếu");
+                }else {
+                    document.write("Điểm trung bình là:" + dtb);
+                    document.write("Xếp loại kem")
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính hoa hồng</title>
+</head>
+<body>
+<script>
+    let doanhso = parseInt(prompt("Nhập doanh số:"));
+    let hoahong = "0"
+    if(doanhso <= 100000000){
+        hoahong = doanhso/100;
+    }else{
+        if(doanhso <= 1000000000 ){
+           hoahong = doanhso*5/100;
+        }else{
+            hoahong = doanhso*10/100;
+        }
+    }
+    document.write("Số tiền hoa hồng được hưởng là:" + hoahong);
+</script>
+</body>
+</html>
