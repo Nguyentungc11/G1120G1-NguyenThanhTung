@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number1 = prompt("Nhập vào một số: ");
+    let number2 =prompt("Nhập vào số thứ 2: ");
+    alert("2 số trước khi đổi chỗ là: "+ number1+" "+ number2);
+    doicho(number1,number2);
+    alert("Hai số sau khi đổi chỗ là: " + number1+" "+number2);
+    function doicho(number1,number2) {
+    let a = number1;
+    number1 = number2;
+    number2 = a;
+        alert("Hai số sau khi đổi chỗ là: " + number1+" "+number2);
+    }
+</script>
+</body>
+</html>

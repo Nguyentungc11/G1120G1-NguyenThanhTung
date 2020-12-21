@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="num"></p>
+<script>
+    function inputnumber(number) {
+        number = prompt("nhập vào một số: ");
+        number++;
+        return number;
+    }
+
+    let a = document.getElementById("num");
+    a = inputnumber(7);
+    alert("kết quả khi tăng lên số nhập vào 1 đơn vị là: " + a);
+</script>
+</body>
+</html>

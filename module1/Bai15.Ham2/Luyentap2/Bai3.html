@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function giaithua(num){
+        let gt = 1;
+        if(num == 0){
+            return 1;
+        }else {
+            for(let i=1;i<=num;i++){
+               gt = gt*i;
+            }
+        }
+        return gt;
+    }
+    let number=parseInt(prompt("Nhập vào số nguyên cần tính giai thừa: "));
+    let result= giaithua(number);
+    alert(number +"! ="+result);
+
+</script>
+</body>
+</html>

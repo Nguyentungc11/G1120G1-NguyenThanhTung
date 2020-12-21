@@ -5,12 +5,14 @@
     <title>Title</title>
 </head>
 <body>
+<p id="a"></p>
 <script>
     function AlertMessage(string) {
         alert(string);
     }
-    alert("xin chào!");
+    document.getElementById(a).innerText=AlertMessage("xin chào");
 
+   // AlertMessage("xin chao");
 </script>
 </body>
 </html>

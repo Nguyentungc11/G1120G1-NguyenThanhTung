@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkmin(number1,number2,number3) {
+        let min = number1;
+        if(number2<number1){
+            min=number2;
+        }else if(number3<number1){
+            min = number3;
+        }
+        return min;
+
+    }
+    let num1 = parseInt(prompt("Nhập vào số thứ nhất: "));
+    let num2 = parseInt(prompt("Nhập vào số thứ 2: "));
+    let num3 = parseInt(prompt("Nhập vào số thứ 3: "));
+    let result=checkmin(num1,num2,num3);
+    alert("Số nhỏ nhất trong 3 số là: "+ result);
+</script>
+</body>
+</html>
