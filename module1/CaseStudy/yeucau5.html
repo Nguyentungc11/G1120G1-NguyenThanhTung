@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //function displayMainMenu() {
+        let mainmenu = prompt("1. Add new customer." + "\n" +
+            "2. Display Infomation Customer." + "\n" +
+            "3. Edit Information Customer." + "\n" +
+            "4. Delete Customer." + "\n" +
+            "5. Exit.");
+   // }
+
+    function addNewCustomer() {
+        let name = prompt("Input name: ");
+        let cmnd = prompt("Input cmnd: ");
+        let birthday = prompt("Input ngày sinh:");
+        let email = prompt("Input email: ");
+        let address = prompt("Input address: ");
+        let typeService = prompt("Input typeService: ");
+        let typeRoom = prompt("Input typeRoom: ");
+        let typeCustomer = prompt("Input typeCustomer: ");
+        let quantityIncluded = prompt("Input quantityIncluded: ");
+        let rentDays = prompt("Input rentDays: ");
+    }
+
+    //displayMainMenu();
+    //let mainmenu;
+    switch (mainmenu) {
+        case 1 : {
+            addNewCustomer();
+        }
+        default : {
+            alert("Lựa chọn không đúng");
+        }
+    }
+</script>
+</body>
+</html>
