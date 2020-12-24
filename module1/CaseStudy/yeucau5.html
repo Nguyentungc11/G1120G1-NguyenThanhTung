@@ -6,37 +6,164 @@
 </head>
 <body>
 <script>
-    //function displayMainMenu() {
-        let mainmenu = prompt("1. Add new customer." + "\n" +
-            "2. Display Infomation Customer." + "\n" +
-            "3. Edit Information Customer." + "\n" +
-            "4. Delete Customer." + "\n" +
-            "5. Exit.");
-   // }
+    function displayMainMenu() {
+        let flag = true;
+        do {
 
+            let choose = parseInt(prompt(   "1. Add new customer." + "\n" +
+                                            "2. Display Infomation Customer." + "\n" +
+                                            "3. Edit Information Customer." + "\n" +
+                                            "4. Delete Customer." + "\n" +
+                                            "5. Exit."));
+            switch (choose) {
+                case 1 :
+                    addNewCustomer();
+                    break;
+                case 2 :
+                    displayCustomer();
+                    break;
+                case 3 :
+                    editCustomer();
+                    break
+                case 4 :
+                    deleteCustomer();
+                    break;
+                case 5:
+                    flag = false;
+                    break;
+                default :
+                    alert("Lựa chọn không đúng");
+
+            }
+        } while (flag)
+    }
+
+    //------------------------------------------------------
     function addNewCustomer() {
+
         let name = prompt("Input name: ");
+        arrInforCustomer.push(name);
         let cmnd = prompt("Input cmnd: ");
+        arrInforCustomer.push(cmnd);
         let birthday = prompt("Input ngày sinh:");
+        arrInforCustomer.push(birthday);
         let email = prompt("Input email: ");
+        arrInforCustomer.push(email);
         let address = prompt("Input address: ");
+        arrInforCustomer.push(address);
         let typeService = prompt("Input typeService: ");
+        arrInforCustomer.push(typeService);
         let typeRoom = prompt("Input typeRoom: ");
+        arrInforCustomer.push(typeRoom);
         let typeCustomer = prompt("Input typeCustomer: ");
+        arrInforCustomer.push(typeCustomer)
         let quantityIncluded = prompt("Input quantityIncluded: ");
+        arrInforCustomer.push(quantityIncluded);
         let rentDays = prompt("Input rentDays: ");
+        arrInforCustomer.push(rentDays);
+        arrListCustomers[arrListCustomers.length] = arrInforCustomer;
+        arrInforCustomer = [];
+        displayMainMenu();
     }
 
-    //displayMainMenu();
-    //let mainmenu;
-    switch (mainmenu) {
-        case 1 : {
-            addNewCustomer();
+    //------------------------------------------------------------------------
+    function displayCustomer() {
+
+        let result = "";
+        for (let i = 0; i < arrListCustomers.length; i++) {
+            for (let j = 0; j < 10; j++) {
+            result += info[j] + ": " + arrListCustomers[i][j] +" \n";
         }
-        default : {
-            alert("Lựa chọn không đúng");
+            result += "\n\n";
+            }
+        alert(result);
+
+    }
+
+
+    //----------------------------------------------------------------------------------
+    function editCustomer() {
+        let cmnd = prompt("Input cmnd: ");
+        let indexCus = 0;
+        for (let i = 0; i < arrListCustomers.length; i++) {
+            if (cmnd === arrListCustomers[i][1]) {
+                indexCus = i;
+                break;
+            }
+        }
+
+        let chooseInfoedit = parseInt(prompt("1.Name\n" + "2. Cmnd\n" +
+            "3. Birthday\n" +
+            "4. Email\n" + "5. Address\n" +
+            "6. TypeService\n" +
+            "7.TypeRoom\n" + "8. TypeCustomer\n" +
+            "9. quantityIncluded\n" +
+            "10. RentDays\n"));
+        switch (chooseInfoedit) {
+            case 1:
+                let newName = prompt("Input new name: ");
+                arrListCustomers[indexCus][0] = newName;
+                break;
+            case 2:
+                let newCmnd = prompt("Input new cmnd: ");
+                arrListCustomers[indexCus][1] = newCmnd;
+                break;
+            case 3:
+                let newBirthday = prompt("Input new birthday: ");
+                arrListCustomers[indexCus][2] = newBirthday;
+                break;
+            case 4:
+                let newEmail = prompt("Input new Email: ");
+                arrListCustomers[indexCus][3] = newEmail;
+                break;
+            case 5:
+                let newAddress = prompt("Input new address: ");
+                arrListCustomers[indexCus][4] = newAddress;
+                break;
+            case 6:
+                let typeService = prompt("Input new type service: ");
+                arrListCustomers[indexCus][5] = typeService;
+                break;
+            case 7:
+                let typeRoom = prompt("Input new type room: ");
+                arrListCustomers[indexCus][6] = typeRoom;
+                break;
+            case 8:
+                let typeCustomer = prompt("Input new type Customer: ");
+                arrListCustomers[indexCus][7] = typeCustomer;
+                break;
+            case 9:
+                let quantityIncluded = prompt("Input new Quantity Included: ");
+                arrListCustomers[indexCus][8] = quantityIncluded;
+                break;
+            case 10:
+                let rentDays = prompt("Input new rentDays: ");
+                arrListCustomers[indexCus][9] = rentDays;
+                break;
+            default :
+                alert("failed");
+                break;
+        }
+        displayMainMenu();
+        }
+
+        //________________--___________________--____________________________________________---
+    function deleteCustomer(){
+        let cmnd = prompt("Input cmnd: ");
+        let indexCus = 0;
+        for (let i = 0; i < arrListCustomers.length; i++) {
+            if (cmnd === arrListCustomers[i][1]) {
+                indexCus = i;
+                break;
+            }
+            arrListCustomers.splice(indexCus, 1);
         }
     }
+        let arrListCustomers = [];
+        let arrInforCustomer = [];
+        let info = ["1.Name", "2.Cmnd", "3.Birthday", "4.Email", "5.Address", "6.TypeService", "7.TypeRoom", "8.TypeCustomer", "9.QuantityIncluded", "10.RentDay"]
+        displayMainMenu();
+
 </script>
 </body>
 </html>

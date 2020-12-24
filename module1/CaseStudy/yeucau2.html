@@ -18,7 +18,7 @@
     let typeService = 'Room';
     let typeRoom = 'Vip';
     let moneyPay;
-    let oldinfo;
+    let oldInfo;
 
     function showCusstomer() {
         alert("1.Customer Name : " + name + "\n" +
@@ -36,7 +36,7 @@
 
     // -------------------------------------------------------------------------
     function editCustomer() {
-        oldinfo = parseInt(prompt("CUSTOMER INFOMATTION" + "\n" +
+        oldInfo = parseInt(prompt("CUSTOMER INFOMATTION" + "\n" +
             "1.Customer Name : " + name + "\n" +
             "2.Customer CardId: " + cardId + "\n" +
             "3.Customer Day of birth day : " + birthday + "\n" +
@@ -111,7 +111,7 @@
             break;
         case 2:
             editCustomer();
-            switch (oldinfo) {
+            switch (oldInfo) {
                 case 1:
                     name = prompt("Customer Name(new) : ");
                     showCusstomer();
