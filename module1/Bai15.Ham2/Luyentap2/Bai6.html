@@ -7,13 +7,13 @@
 <body>
 <script>
     let number = prompt("Nhập vào một số:");
-    checknguyenduong(number);
-    if(checknguyenduong(number)){
+    checkNguyenDuong(number);
+    if(checkNguyenDuong(number)){
         alert(number+" là số nguyên dương.");
     }else {
         alert(number+" không phải là số nguyên dương.");
     }
-    function checknguyenduong(so) {
+    function checkNguyenDuong(so) {
 if(so % 1 === 0 && so > 0){
     return true;
 }else {

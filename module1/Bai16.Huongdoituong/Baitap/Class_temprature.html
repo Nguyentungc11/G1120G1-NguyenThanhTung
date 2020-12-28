@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Temprature {
+        constructor(C) {
+            this.C = C;
+        }
+
+        CtoF() {
+            return 9 / 5 * this.C + 32;
+        }
+
+        CtoK() {
+            return this.C + 273.15;
+        }
+    }
+    let temprature = new Temprature(20);
+    let F = temprature.CtoF();
+    let K = temprature.CtoK();
+    alert("Độ F là: " + F + " "+ "Độ K là: " + " " + K);
+
+</script>
+</body>
+</html>

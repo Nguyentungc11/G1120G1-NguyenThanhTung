@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Rectangle {
+        constructor(chieudai, chieurong) {
+            this.chieudai = chieudai;
+            this.chieurong = chieurong;
+        }
+
+        get() {
+            let S = this.chieudai * this.chieurong;
+            return S;
+        }
+
+        getArea() {
+            let p = (this.chieudai + this.chieurong) * 2;
+            return p;
+        }
+    }
+
+    let Rectangle1 = new Rectangle (5, 10);
+    let S = Rectangle1.get();
+    let p = Rectangle1.getArea()
+    alert("Dien tích hình chữ nhật: " + S);
+    alert("Chu vi hình chữ nhật: " + p);
+</script>
+</body>
+</html>
+
+<!--<canvas id="canvasShape" width="300" height="300" ></canvas>-->
+<!--<p  id="showhcn"></p>-->
+<!--<p  id="showhcn1"></p>-->
+<!--<script>-->
+<!--    class Rectangle {-->
+<!--        constructor(width,height) {-->
+<!--            this.width = width-->
+<!--            this.height = height-->
+<!--        }-->
+<!--        getArea () {-->
+<!--            return (this.width*this.height + ": Dien tich")-->
+<!--        }-->
+<!--        getperimeter(){-->
+<!--            return (this.width+this.height)*2 +": Chu vi"-->
+<!--        }-->
+<!--        Draw(){-->
+<!--            let drawnew=document.getElementById("canvasShape");-->
+<!--            let context = drawnew.getContext("2d")-->
+<!--            context.rect(0, 0,this.width,this.height );-->
+<!--            context.stroke();-->
+<!--            context.fillStyle = "#f12cff";-->
+<!--            context.fill();-->
+<!--        }-->
+<!--    }-->
+<!--    let hcn = new Rectangle(300,200)-->
+<!--    document.getElementById("showhcn").innerHTML=hcn.getArea()-->
+<!--    document.getElementById("showhcn1").innerHTML=hcn.getperimeter()-->
+<!--    hcn.Draw()-->
+<!--</script>-->
