@@ -21,12 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b7f4b6e9-0904-4a32-9f22-7ed3a05ed430" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/Bai10_vonglap/Thuchanh/Dayso1-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Bai10_vonglap/Thuchanh/Dayso1-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/Bai15.Ham2/Baitap/Xinchao.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/Bai15.Ham2/food_meter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/Bai2.nhap-mon/chung-chi-bai-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/Bai2.nhap-mon/{64305649-8A6A-4F82-A5E1-8EB28A8D42B8}.png.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/Bai2.nhap-mon/{EA10FD91-E76F-4CAD-963E-6FC02693AE43}.png.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../New folder/Bài Giảng trên lớp/c11g-oop/oop_student.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../New folder/case study/yeucau6_task2.html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -93,6 +87,16 @@
       <workItem from="1608014060640" duration="13066000" />
       <workItem from="1608385031348" duration="11775000" />
       <workItem from="1608470058981" duration="11426000" />
+      <workItem from="1608513612980" duration="18010000" />
+      <workItem from="1608563875853" duration="5409000" />
+      <workItem from="1608610634420" duration="12010000" />
+      <workItem from="1608686180347" duration="20011000" />
+      <workItem from="1608747435566" duration="10364000" />
+      <workItem from="1608772750786" duration="17728000" />
+      <workItem from="1608824428933" duration="4152000" />
+      <workItem from="1608859789023" duration="20001000" />
+      <workItem from="1609009785924" duration="11416000" />
+      <workItem from="1609070823939" duration="21729000" />
     </task>
     <servers />
   </component>
@@ -120,18 +124,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1608274697271" />
-    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1608274950497">
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1609080509088">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608274950497" />
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609080509088" />
     <state x="564" y="84" key="RollbackChangesDialog" timestamp="1606781527006">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="564" y="84" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606781527006" />
-    <state x="388" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608396968249">
+    <state x="388" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609129013477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="388" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1608396968249" />
+    <state x="388" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1609129013477" />
     <state x="676" y="0" width="697" height="735" key="dock-window-1" timestamp="1608001860231">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -144,5 +148,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="557" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1608024420698" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/module1/Bai15.Ham2/Luyentap1/bai5.html</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
