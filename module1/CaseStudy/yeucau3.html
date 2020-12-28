@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
 </head>
 <body>
 <script>
@@ -73,19 +74,19 @@
     //____________________________________________
     do {
         let countAt = 0;
-        let countdoc = 0;
+        let countDoc = 0;
         email = prompt("Input email: ");
         for (let i = 0; i < email.length; i++) {
             if (email.charAt(i) === "@") {
                 countAt++;
                 for (let j = i + 1; j < email.length; j++) {
                     if (email.charAt(j) === ".") {
-                        countdoc++;
+                        countDoc++;
                     }
                 }
             }
         }
-        if (countAt != 1 || countdoc < 1) {
+        if (countAt != 1 || countDoc < 1) {
             alert("Email đã nhập không đúng.")
         } else {
             check = true;

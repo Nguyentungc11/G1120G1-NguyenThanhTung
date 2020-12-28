@@ -13,8 +13,8 @@
             case 1: {
                 let number = parseInt(prompt("Number of customer you want to add: "));
                 for (let i = 0; i < number; i++) {
-                    let Namecustomer = prompt("Enter name of customer");
-                    arrNamecustomers.push(Namecustomer);
+                    let nameCustomer = prompt("Enter name of customer");
+                    arrNamecustomers.push(nameCustomer);
                 }
                 let result = "";
                 arrNamecustomers.sort();
@@ -26,9 +26,9 @@
             }
             case 2: {
                 let flag = true;
-                let namecustomer = prompt("Enter the name of customer you want to delete:");
+                let nameCustomer = prompt("Enter the name of customer you want to delete:");
                 for (let i = 0; i < arrNamecustomers.length; i++) {
-                    if (namecustomer === arrNamecustomers[i]) {
+                    if (nameCustomer === arrNamecustomers[i]) {
                         arrNamecustomers.splice(i, 1);
                         flag = false;
                     }
